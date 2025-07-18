@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OG Image Template</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 1200px;
+            height: 630px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #f8c8dc 0%, #d8b5e3 100%);
+            font-family: 'Arial', sans-serif;
+            color: #4a4a4a;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .container {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.85);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+        }
+        
+        .logo {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #b392ac;
+        }
+        
+        .text-content {
+            flex: 1;
+        }
+        
+        h1 {
+            font-size: 64px;
+            margin: 0 0 20px 0;
+        }
+        
+        p {
+            font-size: 28px;
+            margin: 0;
+            opacity: 0.9;
+        }
+        
+        .image-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 40px;
+        }
+        
+        .image-placeholder {
+            width: 400px;
+            height: 400px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 24px;
+            border: 2px dashed #b392ac;
+        }
+        
+        .floating-item {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+        }
+        
+        .item1 {
+            width: 100px;
+            height: 100px;
+            top: 10%;
+            left: 5%;
+        }
+        
+        .item2 {
+            width: 150px;
+            height: 150px;
+            bottom: 15%;
+            left: 10%;
+        }
+        
+        .item3 {
+            width: 80px;
+            height: 80px;
+            top: 20%;
+            right: 15%;
+        }
+        
+        .item4 {
+            width: 120px;
+            height: 120px;
+            bottom: 10%;
+            right: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="floating-item item1"></div>
+    <div class="floating-item item2"></div>
+    <div class="floating-item item3"></div>
+    <div class="floating-item item4"></div>
+    
+    <div class="container">
+        <div class="text-content">
+            <div class="logo">Tom's Crafts</div>
+            <h1>Handmade Crochet Creations</h1>
+            <p>Unique designs crafted with love and care</p>
+        </div>
+        <div class="image-content">
+            <div class="image-placeholder">
+                [Product Image]
+            </div>
+        </div>
+    </div>
+</body>
+</html>

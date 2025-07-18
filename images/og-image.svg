@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8c8dc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d8b5e3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grad)"/>
+  <rect x="100" y="115" width="1000" height="400" rx="20" ry="20" fill="rgba(255,255,255,0.85)" />
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="50" fill="rgba(255,255,255,0.2)" />
+  <circle cx="150" cy="500" r="75" fill="rgba(255,255,255,0.2)" />
+  <circle cx="1050" cy="150" r="40" fill="rgba(255,255,255,0.2)" />
+  <circle cx="1100" cy="550" r="60" fill="rgba(255,255,255,0.2)" />
+  
+  <!-- Logo text -->
+  <text x="150" y="200" font-family="Arial" font-size="48" font-weight="bold" fill="#b392ac">Tom's Crafts</text>
+  
+  <!-- Main heading -->
+  <text x="150" y="280" font-family="Arial" font-size="64" font-weight="bold" fill="#4a4a4a">Handmade Crochet Creations</text>
+  
+  <!-- Subheading -->
+  <text x="150" y="340" font-family="Arial" font-size="28" fill="#4a4a4a" opacity="0.9">Unique designs crafted with love and care</text>
+  
+</svg>
